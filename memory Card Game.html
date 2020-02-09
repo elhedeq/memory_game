@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Memory Cards Game</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="icon" href="images/logo.jpg"/>
+    </head>
+    <body>
+        <div class="game">
+            <p class="title">memory card game</p>
+            <div class="intro">
+                <p class="description">Choose which you like (<span>numbers or letters</span>) to start <br>memorize cards you have <u><b>5 seconds</b> before they are hiden</u></p>
+                <button onclick="choose('numbers')">Numbers</button>
+                <button onclick="choose('letters')">Letters</button>
+            </div>
+            <table>
+                <tr>
+                    <td><button class="card" onclick="check(0)"></button></td>
+                    <td><button class="card" onclick="check(1)"></button></td>
+                    <td><button class="card" onclick="check(2)"></button></td>
+                    <td><button class="card" onclick="check(3)"></button></td>
+                    <td><button class="card" onclick="check(4)"></button></td>
+                    <td><button class="card" onclick="check(5)"></button></td>
+                    <td><button class="card" onclick="check(6)"></button></td>
+                </tr>
+                <tr>
+                    <td><button class="card" onclick="check(7)"></button></td>
+                    <td><button class="card" onclick="check(8)"></button></td>
+                    <td><button class="card" onclick="check(9)"></button></td>
+                    <td><button class="card" onclick="check(10)"></button></td>
+                    <td><button class="card" onclick="check(11)"></button></td>
+                    <td><button class="card" onclick="check(12)"></button></td>
+                    <td><button class="card" onclick="check(13)"></button></td>
+                </tr>
+                <tr>
+                    <td><button class="card" onclick="check(14)"></button></td>
+                    <td><button class="card" onclick="check(15)"></button></td>
+                    <td><button class="card" onclick="check(16)"></button></td>
+                    <td><button class="card" onclick="check(17)"></button></td>
+                    <td><button class="card" onclick="check(18)"></button></td>
+                    <td><button class="card" onclick="check(19)"></button></td>
+                    <td><button class="card" onclick="check(20)"></button></td>
+                </tr>
+                <tr>
+                    <td><button class="card" onclick="check(21)"></button></td>
+                    <td><button class="card" onclick="check(22)"></button></td>
+                    <td><button class="card" onclick="check(23)"></button></td>
+                    <td><button class="card" onclick="check(24)"></button></td>
+                    <td><button class="card" onclick="check(25)"></button></td>
+                    <td><button class="card" onclick="check(26)"></button></td>
+                    <td><button class="card" onclick="check(27)"></button></td>
+                </tr>
+            </table>
+            <button class="exit" onclick="reset();">Exit to main screen</button>
+        </div>
+        <div class="congrats">
+            <p>Congratulations</p>
+            <p>You win</p>
+            <button onclick="reset();">Play again</button>
+        </div>
+        <script src="game.js"></script>
+    </body>
+</html>

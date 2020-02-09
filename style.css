@@ -1,0 +1,121 @@
+* {
+    font-family: arial;
+}
+.game {
+    max-width: 39%;
+    min-width: 10%;
+    margin: auto;
+    display: block;
+    transition: display 1s;
+}
+.card {
+    background-color: cyan;
+    color: black;
+    font-weight: bolder;
+    font-size: 200%;
+    box-shadow: 5px 5px #ddd;
+    border-radius: 8%;
+    outline: 0;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: border-radius 1s;
+}
+.card:hover {
+    background-color: aqua;
+}
+.card:active {
+    box-shadow: 0 0;
+}
+.title{
+    text-shadow: 1px 1px gray;
+    color: gold;
+    font-size: 74px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+}
+.description {
+    color: #367ABD;
+    text-align: center;
+    margin: 0;
+    transition: display 1s;
+}
+.intro button {
+    padding: 10px;
+    border: 2px groove black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin: 10px 0 10px 120px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: 0;
+    transition: display 1s;
+}
+.intro button:hover {
+    background-color: lightgrey;
+}
+.intro button:active {
+    border: 1px solid gray;
+}
+.intro span {
+    color: black;
+    text-shadow: 1px 1px lightgrey;
+    font-weight: 500;
+}
+u {
+    color: red;
+    font-style: italic;
+}
+.congrats {
+    min-height: 250px;
+    background-color: gold;
+    text-align: center;
+    padding: 50px;
+    margin: 50px 0;
+    color: white;
+    font-size: 72px;
+    text-shadow: 2px 2px gray;
+    display: none;
+    transition: display 1s;
+}
+.congrats p:nth-child(2){
+    font-size: 26px;
+    text-shadow: 1px 1px gray;
+}
+.congrats button {
+    padding: 15px 25px;
+    background-color: #367ABD;
+    color: white;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    outline: 0;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+.congrats button:active {
+    background-color: #367090
+}
+.exit {
+    display: block;
+    padding: 20px;
+    border: 2px groove black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: 0;
+    transition: display 1s;
+}
+.exit {
+    color: #EE4035;
+    display: none;
+}
+.exit:hover {
+    background-color: #EE4035;
+    color: white;
+}
